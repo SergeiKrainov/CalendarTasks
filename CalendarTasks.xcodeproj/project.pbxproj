@@ -7,23 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A54CF06A2727F42B00C8B4A9 /* AlertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CF0692727F42B00C8B4A9 /* AlertDate.swift */; };
+		A54CF06C2728019800C8B4A9 /* AlertTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CF06B2728019800C8B4A9 /* AlertTime.swift */; };
+		A54CF06E2728073800C8B4A9 /* AlertForCellName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CF06D2728073800C8B4A9 /* AlertForCellName.swift */; };
+		A55FB1CB272AB35E00A6C83B /* AlertOk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55FB1CA272AB35E00A6C83B /* AlertOk.swift */; };
 		A5799AA72722AD2E0030E384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5799AA62722AD2E0030E384 /* AppDelegate.swift */; };
 		A5799AA92722AD2E0030E384 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5799AA82722AD2E0030E384 /* SceneDelegate.swift */; };
-		A5799AAB2722AD2E0030E384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5799AAA2722AD2E0030E384 /* ViewController.swift */; };
+		A5799AAB2722AD2E0030E384 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5799AAA2722AD2E0030E384 /* MainTabController.swift */; };
 		A5799AAE2722AD2E0030E384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5799AAC2722AD2E0030E384 /* Main.storyboard */; };
 		A5799AB02722AD300030E384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5799AAF2722AD300030E384 /* Assets.xcassets */; };
 		A5799AB32722AD300030E384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5799AB12722AD300030E384 /* LaunchScreen.storyboard */; };
+		A5799ABB2722B5300030E384 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5799ABA2722B5300030E384 /* CalendarViewController.swift */; };
+		A5799ABD2722B53F0030E384 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5799ABC2722B53F0030E384 /* TasksViewController.swift */; };
+		A5B1013C2723168E001A32E8 /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1013B2723168E001A32E8 /* CalendarTableViewCell.swift */; };
+		A5B10140272322B0001A32E8 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1013F272322B0001A32E8 /* UIStackView.swift */; };
+		A5B1014227232B0D001A32E8 /* UILable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1014127232B0D001A32E8 /* UILable.swift */; };
+		A5B1014427232E47001A32E8 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B1014327232E47001A32E8 /* UIFont.swift */; };
+		A5E1A39327296FA800C87776 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A5E1A39227296FA800C87776 /* Realm */; };
+		A5E1A39527296FA800C87776 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A5E1A39427296FA800C87776 /* RealmSwift */; };
+		A5E1A3982729728600C87776 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1A3972729728600C87776 /* CalendarModel.swift */; };
+		A5E1A39B272973ED00C87776 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1A39A272973ED00C87776 /* RealmManager.swift */; };
+		A5FB51F227268AAA00213BCF /* OptionsCalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB51F127268AAA00213BCF /* OptionsCalendarTableViewController.swift */; };
+		A5FB51F52726918600213BCF /* OptionsCalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB51F42726918600213BCF /* OptionsCalendarTableViewCell.swift */; };
+		A5FB51F827269A4400213BCF /* HeaderOptionsCalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB51F727269A4400213BCF /* HeaderOptionsCalendarTableViewCell.swift */; };
+		B568958575518AC9B267D72D /* Pods_CalendarTasks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93900E680529BD7EC1C26388 /* Pods_CalendarTasks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CB10CB15ED47002EDA09316 /* Pods-CalendarTasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarTasks.debug.xcconfig"; path = "Target Support Files/Pods-CalendarTasks/Pods-CalendarTasks.debug.xcconfig"; sourceTree = "<group>"; };
+		93900E680529BD7EC1C26388 /* Pods_CalendarTasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalendarTasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54CF0692727F42B00C8B4A9 /* AlertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDate.swift; sourceTree = "<group>"; };
+		A54CF06B2728019800C8B4A9 /* AlertTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTime.swift; sourceTree = "<group>"; };
+		A54CF06D2728073800C8B4A9 /* AlertForCellName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForCellName.swift; sourceTree = "<group>"; };
+		A55FB1CA272AB35E00A6C83B /* AlertOk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertOk.swift; sourceTree = "<group>"; };
 		A5799AA32722AD2E0030E384 /* CalendarTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5799AA62722AD2E0030E384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5799AA82722AD2E0030E384 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5799AAA2722AD2E0030E384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5799AAA2722AD2E0030E384 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		A5799AAD2722AD2E0030E384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5799AAF2722AD300030E384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5799AB22722AD300030E384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5799AB42722AD300030E384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5799ABA2722B5300030E384 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		A5799ABC2722B53F0030E384 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		A5B1013B2723168E001A32E8 /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		A5B1013F272322B0001A32E8 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		A5B1014127232B0D001A32E8 /* UILable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILable.swift; sourceTree = "<group>"; };
+		A5B1014327232E47001A32E8 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		A5E1A3972729728600C87776 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		A5E1A39A272973ED00C87776 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		A5FB51F127268AAA00213BCF /* OptionsCalendarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsCalendarTableViewController.swift; sourceTree = "<group>"; };
+		A5FB51F42726918600213BCF /* OptionsCalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsCalendarTableViewCell.swift; sourceTree = "<group>"; };
+		A5FB51F727269A4400213BCF /* HeaderOptionsCalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderOptionsCalendarTableViewCell.swift; sourceTree = "<group>"; };
+		EF59D9A2965D0F65AC5A2332 /* Pods-CalendarTasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalendarTasks.release.xcconfig"; path = "Target Support Files/Pods-CalendarTasks/Pods-CalendarTasks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E1A39527296FA800C87776 /* RealmSwift in Frameworks */,
+				A5E1A39327296FA800C87776 /* Realm in Frameworks */,
+				B568958575518AC9B267D72D /* Pods_CalendarTasks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92619E1CABBBA1D979616A34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93900E680529BD7EC1C26388 /* Pods_CalendarTasks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A54CF0682727F40E00C8B4A9 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				A54CF0692727F42B00C8B4A9 /* AlertDate.swift */,
+				A54CF06B2728019800C8B4A9 /* AlertTime.swift */,
+				A54CF06D2728073800C8B4A9 /* AlertForCellName.swift */,
+				A55FB1CA272AB35E00A6C83B /* AlertOk.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		A5799A9A2722AD2E0030E384 = {
 			isa = PBXGroup;
 			children = (
 				A5799AA52722AD2E0030E384 /* CalendarTasks */,
 				A5799AA42722AD2E0030E384 /* Products */,
+				AF833486B86D6BF70BCFDB2D /* Pods */,
+				92619E1CABBBA1D979616A34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +118,82 @@
 			children = (
 				A5799AA62722AD2E0030E384 /* AppDelegate.swift */,
 				A5799AA82722AD2E0030E384 /* SceneDelegate.swift */,
-				A5799AAA2722AD2E0030E384 /* ViewController.swift */,
+				A5799AAA2722AD2E0030E384 /* MainTabController.swift */,
+				A5799ABC2722B53F0030E384 /* TasksViewController.swift */,
+				A5FB51F6272699FD00213BCF /* CalendarVIew */,
+				A5FB51F32726916300213BCF /* Cell */,
+				A5E1A399272973D000C87776 /* Services */,
+				A5E1A3962729726500C87776 /* Realm */,
+				A54CF0682727F40E00C8B4A9 /* Alert */,
+				A5B1013D2723227C001A32E8 /* Extensions */,
 				A5799AAC2722AD2E0030E384 /* Main.storyboard */,
 				A5799AAF2722AD300030E384 /* Assets.xcassets */,
 				A5799AB12722AD300030E384 /* LaunchScreen.storyboard */,
 				A5799AB42722AD300030E384 /* Info.plist */,
 			);
 			path = CalendarTasks;
+			sourceTree = "<group>";
+		};
+		A5B1013D2723227C001A32E8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A5B1013E27232295001A32E8 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5B1013E27232295001A32E8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A5B1013F272322B0001A32E8 /* UIStackView.swift */,
+				A5B1014127232B0D001A32E8 /* UILable.swift */,
+				A5B1014327232E47001A32E8 /* UIFont.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		A5E1A3962729726500C87776 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				A5E1A3972729728600C87776 /* CalendarModel.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		A5E1A399272973D000C87776 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A5E1A39A272973ED00C87776 /* RealmManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A5FB51F32726916300213BCF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5B1013B2723168E001A32E8 /* CalendarTableViewCell.swift */,
+				A5FB51F42726918600213BCF /* OptionsCalendarTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A5FB51F6272699FD00213BCF /* CalendarVIew */ = {
+			isa = PBXGroup;
+			children = (
+				A5799ABA2722B5300030E384 /* CalendarViewController.swift */,
+				A5FB51F127268AAA00213BCF /* OptionsCalendarTableViewController.swift */,
+				A5FB51F727269A4400213BCF /* HeaderOptionsCalendarTableViewCell.swift */,
+			);
+			path = CalendarVIew;
+			sourceTree = "<group>";
+		};
+		AF833486B86D6BF70BCFDB2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CB10CB15ED47002EDA09316 /* Pods-CalendarTasks.debug.xcconfig */,
+				EF59D9A2965D0F65AC5A2332 /* Pods-CalendarTasks.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +203,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5799AB72722AD300030E384 /* Build configuration list for PBXNativeTarget "CalendarTasks" */;
 			buildPhases = (
+				A2488D9D0130CF93A0BEAF14 /* [CP] Check Pods Manifest.lock */,
 				A5799A9F2722AD2E0030E384 /* Sources */,
 				A5799AA02722AD2E0030E384 /* Frameworks */,
 				A5799AA12722AD2E0030E384 /* Resources */,
+				994A598617F9E29F20282BFB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CalendarTasks;
+			packageProductDependencies = (
+				A5E1A39227296FA800C87776 /* Realm */,
+				A5E1A39427296FA800C87776 /* RealmSwift */,
+			);
 			productName = CalendarTasks;
 			productReference = A5799AA32722AD2E0030E384 /* CalendarTasks.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +246,9 @@
 				Base,
 			);
 			mainGroup = A5799A9A2722AD2E0030E384;
+			packageReferences = (
+				A5E1A39127296FA800C87776 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = A5799AA42722AD2E0030E384 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,14 +271,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		994A598617F9E29F20282BFB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalendarTasks/Pods-CalendarTasks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CalendarTasks/Pods-CalendarTasks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CalendarTasks/Pods-CalendarTasks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2488D9D0130CF93A0BEAF14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalendarTasks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5799A9F2722AD2E0030E384 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5799AAB2722AD2E0030E384 /* ViewController.swift in Sources */,
+				A5799ABB2722B5300030E384 /* CalendarViewController.swift in Sources */,
+				A5799AAB2722AD2E0030E384 /* MainTabController.swift in Sources */,
+				A5FB51F52726918600213BCF /* OptionsCalendarTableViewCell.swift in Sources */,
+				A5B10140272322B0001A32E8 /* UIStackView.swift in Sources */,
+				A55FB1CB272AB35E00A6C83B /* AlertOk.swift in Sources */,
+				A5799ABD2722B53F0030E384 /* TasksViewController.swift in Sources */,
+				A5FB51F827269A4400213BCF /* HeaderOptionsCalendarTableViewCell.swift in Sources */,
+				A5E1A39B272973ED00C87776 /* RealmManager.swift in Sources */,
 				A5799AA72722AD2E0030E384 /* AppDelegate.swift in Sources */,
+				A54CF06A2727F42B00C8B4A9 /* AlertDate.swift in Sources */,
+				A54CF06E2728073800C8B4A9 /* AlertForCellName.swift in Sources */,
+				A5E1A3982729728600C87776 /* CalendarModel.swift in Sources */,
+				A5FB51F227268AAA00213BCF /* OptionsCalendarTableViewController.swift in Sources */,
 				A5799AA92722AD2E0030E384 /* SceneDelegate.swift in Sources */,
+				A5B1014227232B0D001A32E8 /* UILable.swift in Sources */,
+				A54CF06C2728019800C8B4A9 /* AlertTime.swift in Sources */,
+				A5B1013C2723168E001A32E8 /* CalendarTableViewCell.swift in Sources */,
+				A5B1014427232E47001A32E8 /* UIFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +479,7 @@
 		};
 		A5799AB82722AD300030E384 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB10CB15ED47002EDA09316 /* Pods-CalendarTasks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +493,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +509,7 @@
 		};
 		A5799AB92722AD300030E384 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF59D9A2965D0F65AC5A2332 /* Pods-CalendarTasks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +523,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +559,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5E1A39127296FA800C87776 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5E1A39227296FA800C87776 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5E1A39127296FA800C87776 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		A5E1A39427296FA800C87776 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5E1A39127296FA800C87776 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A5799A9B2722AD2E0030E384 /* Project object */;
 }
