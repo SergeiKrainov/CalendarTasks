@@ -93,7 +93,7 @@ class OptionsCalendarTableViewController: UITableViewController {
         }
         case [1,1]:
             alertForCellName(label: cell.nameCellLabel, name: "Description", placeholder: "Description") { text in
-                self.calendarModel.taskName = text
+                self.calendarModel.calendarTaskName = text
         }
         default:
             print("Error")

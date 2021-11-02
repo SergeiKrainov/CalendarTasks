@@ -55,13 +55,12 @@ class CalendarViewController: UIViewController {
     }
     
     func getDay() {
-        let calendar = Calendar.current
-        let hours = Double(calendar.component(.hour, from: toDoDate) * 60 * 60)
-        let minutes = Double(calendar.component(.minute, from: toDoDate) * 60)
-        let seconds = Double(calendar.component(.second, from: toDoDate))
-        let todayStartDate = toDoDate.timeIntervalSince1970 - hours - minutes - seconds
+       
+        let todayStartDate = toDoDate.timeIntervalSince1970 - toDoDate.getHour().secondRepresentation()
         let tomorrowStartDay = todayStartDate + 24 * 60 * 60
-        calendarItems = self.realmManager.getToDo(from: todayStartDate, to: tomorrowStartDay)
+        calendarItems = self.realmManager.getToDo(from: todayStartDate, to: tomorrowStartDay).sorted {
+            $0.calendarDate.timeIntervalSince1970 < $1.calendarDate.timeIntervalSince1970
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -156,12 +155,10 @@ extension CalendarViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "idCalendarCell", for: indexPath) as! CalendarTableViewCell
         let model = self.calendarItems[indexPath.row]
-        cell.taskName = model.taskName.text
-        cell.descriptionName = model.calendarDescription
-        cell.taskTime = model.calendarDate
+        cell.taskName.text = model.calendarTaskName
+        cell.descriptionName.text = model.calendarDescription
+        cell.taskTime.text = model.calendarDate.getHour().stringRepresentation()
         
-        
-                
         return cell
     }
     

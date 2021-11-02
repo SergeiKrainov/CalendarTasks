@@ -28,9 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         Realm.Configuration.defaultConfiguration = config
 
-        let realm = try! Realm()
-        // Override point for customization after application launch.
-        return true
+//        let realm = try! Realm()
+//        // Override point for customization after application launch.
+       return true
     }
 
     // MARK: UISceneSession Lifecycle

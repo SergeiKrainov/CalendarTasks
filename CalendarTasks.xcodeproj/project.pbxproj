@@ -27,6 +27,7 @@
 		A5E1A39527296FA800C87776 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A5E1A39427296FA800C87776 /* RealmSwift */; };
 		A5E1A3982729728600C87776 /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1A3972729728600C87776 /* CalendarModel.swift */; };
 		A5E1A39B272973ED00C87776 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1A39A272973ED00C87776 /* RealmManager.swift */; };
+		A5F9E99D27319383005530EC /* Date+Hour.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F9E99C27319383005530EC /* Date+Hour.swift */; };
 		A5FB51F227268AAA00213BCF /* OptionsCalendarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB51F127268AAA00213BCF /* OptionsCalendarTableViewController.swift */; };
 		A5FB51F52726918600213BCF /* OptionsCalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB51F42726918600213BCF /* OptionsCalendarTableViewCell.swift */; };
 		A5FB51F827269A4400213BCF /* HeaderOptionsCalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FB51F727269A4400213BCF /* HeaderOptionsCalendarTableViewCell.swift */; };
@@ -56,6 +57,7 @@
 		A5B1014327232E47001A32E8 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 		A5E1A3972729728600C87776 /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
 		A5E1A39A272973ED00C87776 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		A5F9E99C27319383005530EC /* Date+Hour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Hour.swift"; sourceTree = "<group>"; };
 		A5FB51F127268AAA00213BCF /* OptionsCalendarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsCalendarTableViewController.swift; sourceTree = "<group>"; };
 		A5FB51F42726918600213BCF /* OptionsCalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsCalendarTableViewCell.swift; sourceTree = "<group>"; };
 		A5FB51F727269A4400213BCF /* HeaderOptionsCalendarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderOptionsCalendarTableViewCell.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				A5799AA82722AD2E0030E384 /* SceneDelegate.swift */,
 				A5799AAA2722AD2E0030E384 /* MainTabController.swift */,
 				A5799ABC2722B53F0030E384 /* TasksViewController.swift */,
+				A5F9E99C27319383005530EC /* Date+Hour.swift */,
 				A5FB51F6272699FD00213BCF /* CalendarVIew */,
 				A5FB51F32726916300213BCF /* Cell */,
 				A5E1A399272973D000C87776 /* Services */,
@@ -328,6 +331,7 @@
 				A5E1A39B272973ED00C87776 /* RealmManager.swift in Sources */,
 				A5799AA72722AD2E0030E384 /* AppDelegate.swift in Sources */,
 				A54CF06A2727F42B00C8B4A9 /* AlertDate.swift in Sources */,
+				A5F9E99D27319383005530EC /* Date+Hour.swift in Sources */,
 				A54CF06E2728073800C8B4A9 /* AlertForCellName.swift in Sources */,
 				A5E1A3982729728600C87776 /* CalendarModel.swift in Sources */,
 				A5FB51F227268AAA00213BCF /* OptionsCalendarTableViewController.swift in Sources */,

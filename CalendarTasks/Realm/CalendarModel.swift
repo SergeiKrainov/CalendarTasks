@@ -13,5 +13,5 @@ class CalendarModel: Object {
     @Persisted var calendarDate = Date()
     @Persisted var calendarTime = Date()
     @Persisted var calendarDescription: String = ""
-    @Persisted var taskName: String = ""
+    @Persisted var calendarTaskName: String = ""
 }
