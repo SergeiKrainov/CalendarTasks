@@ -14,22 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let config = Realm.Configuration(
-
-           schemaVersion: 1,  //Increment this each time your schema changes
-            migrationBlock: { migration, oldSchemaVersion in
-
-              if (oldSchemaVersion < 1) {
-                    //If you need to transfer any data
-                   //(in your case you don't right now) you will transfer here
-
-              }
-           })
-
-        Realm.Configuration.defaultConfiguration = config
-
-//        let realm = try! Realm()
-//        // Override point for customization after application launch.
+        
        return true
     }
 
