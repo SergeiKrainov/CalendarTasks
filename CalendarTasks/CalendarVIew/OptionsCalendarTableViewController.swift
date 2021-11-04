@@ -32,11 +32,14 @@ class OptionsCalendarTableViewController: UITableViewController {
     }
     
     @objc func saveButtonTapped() {
-        
-        RealmManager.shared.saveCalemdarModel(model: calendarModel)
-        calendarModel = CalendarModel()
-        alertOk(title: "Success")
-        tableView.reloadRows(at: [[0,0], [0,1], [1,0], [1,1]], with: .none)
+        if calendarModel.calendarTaskName == "Unknown" {
+            alertOk(title: "Error", message: "Requered fields: Date, Time, Name")
+        } else {
+            RealmManager.shared.saveCalemdarModel(model: calendarModel)
+            calendarModel = CalendarModel()
+            alertOk(title: "Success", message: nil)
+            tableView.reloadRows(at: [[0,0], [0,1], [1,0], [1,1]], with: .none)
+        }
         
     }
     

@@ -154,10 +154,12 @@ extension CalendarViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "idCalendarCell", for: indexPath) as! CalendarTableViewCell
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH:mm"
         let model = self.calendarItems[indexPath.row]
         cell.taskName.text = model.calendarTaskName
         cell.descriptionName.text = model.calendarDescription
-        cell.taskTime.text = model.calendarDate.getHour().stringRepresentation()
+        cell.taskTime.text = dateFormatter.string(from: model.calendarDate) 
         
         return cell
     }
@@ -165,9 +167,7 @@ extension CalendarViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
-    
-    
-    
+
     
 }
 

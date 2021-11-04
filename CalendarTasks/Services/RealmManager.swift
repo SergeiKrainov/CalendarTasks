@@ -23,11 +23,16 @@ class RealmManager {
         }
     }
     
+    func deleteCalemdarModel(model: CalendarModel) {
+        try! localRealm.write {
+            localRealm.delete(model)
+        }
+    }
+    
     func getToDo(from startDate: TimeInterval, to endDate: TimeInterval) -> [CalendarModel] {
         return self.localRealm.objects(CalendarModel.self).filter { model in
             model.calendarDate.timeIntervalSince1970 >= startDate && model.calendarDate.timeIntervalSince1970 < endDate
         }
     }
-    
-    
 }
+
